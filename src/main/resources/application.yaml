@@ -1,5 +1,6 @@
 spring:
 
+  # 其他请求方法需要打开
   mvc:
     hiddenmethod:
       filter:

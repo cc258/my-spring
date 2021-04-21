@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload files</title>
+</head>
+<body>
+<form role="form" action="/upload" method="post" enctype="multipart/form-data">
+    <label for="headImg">Head Image</label>
+    <input name="headImg" id="headImg" type="file" />
+
+    <label for="photos">Photos</label>
+    <input name="photos" id="photos" type="file" multiple />
+
+    <button type="submit">上传</button>
+</form>
+
+</body>
+</html>
