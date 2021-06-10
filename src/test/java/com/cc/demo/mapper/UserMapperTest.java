@@ -58,33 +58,33 @@ class UserMapperTest {
     }
 
     // 测试同一个对象
-    @Test
-    void testAssertSame(){
-        Object o1 = new Object();
-        Object o2 = new Object();
-        assertSame(o1,o2,"对象的内存地址不一样");
-    }
+//    @Test
+//    void testAssertSame(){
+//        Object o1 = new Object();
+//        Object o2 = new Object();
+//        assertSame(o1,o2,"对象的内存地址不一样");
+//    }
 
     // 测试数组
-    @Test
-    void testArray(){
-        Object o1 = new Object();
-        Object o2 = new Object();
-        assertArrayEquals(new int[]{1,2},new int[]{1,2},"数组内容不相等");
-    }
+//    @Test
+//    void testArray(){
+//        Object o1 = new Object();
+//        Object o2 = new Object();
+//        assertArrayEquals(new int[]{1,2},new int[]{1,2},"数组内容不相等");
+//    }
 
     // 测试异常
-    @Test
-    void testException(){
-        assertThrows(ArithmeticException.class, ()->{int i = 10/0; }, "居然没异常，有问题");
-    }
+//    @Test
+//    void testException(){
+//        assertThrows(ArithmeticException.class, ()->{int i = 10/0; }, "居然没异常，有问题");
+//    }
 
     // 测试快速失败
-    @Test
-    void testFail(){
-        if(1==2){
-            fail("主动测试失败");
-        }
-    }
+//    @Test
+//    void testFail(){
+//        if(1==2){
+//            fail("主动测试失败");
+//        }
+//    }
 
 }
