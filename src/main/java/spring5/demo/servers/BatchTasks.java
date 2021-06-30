@@ -1,12 +1,12 @@
-package com.cc.demo.servers;
+package spring5.demo.servers;
 
-import com.cc.demo.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
+import springbootstudy.demo.mapper.UserMapper;
 
 @Slf4j
 @Service
