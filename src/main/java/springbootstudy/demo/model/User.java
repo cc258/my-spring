@@ -1,4 +1,4 @@
-package com.cc.demo.model;
+package springbootstudy.demo.model;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;

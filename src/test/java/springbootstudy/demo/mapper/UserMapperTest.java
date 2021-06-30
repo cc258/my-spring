@@ -1,6 +1,6 @@
-package com.cc.demo.mapper;
+package springbootstudy.demo.mapper;
 
-import com.cc.demo.model.User;
+import springbootstudy.demo.model.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
