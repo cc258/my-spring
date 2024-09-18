@@ -25,5 +25,4 @@ public class FormController {
         log.info("==== 上传的信息： 头像的大小{}, 照片有{}张", headImg.getSize(), photos.length);
         return "上传成功";
     }
-
 }
