@@ -43,7 +43,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
@@ -52,14 +51,12 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.18</version>
+			<scope>runtime</scope>
 		</dependency>
-
 		<!-- Reactor -->
 		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-core</artifactId>
-
 		</dependency>
 		<dependency>
 			<groupId>io.projectreactor</groupId>
